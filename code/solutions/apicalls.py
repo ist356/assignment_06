@@ -1,7 +1,7 @@
 import requests
 
 # Put your  CENT Ischool IoT Portal API KEY here.
-APIKEY = "ea044c96950db6cc0fab7ae1"
+APIKEY = "APIKEYHERE"
 
 def get_google_place_details(google_place_id: str) -> dict:
     header = { 'X-API-KEY': APIKEY }
