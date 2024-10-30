@@ -105,6 +105,8 @@ Inside this file there are 3 functions to implement:
 
 Each function is a step in the multi-step ETL pipeline, and includes tests in `test_assignment_api.py` to help you verify your code is correct. This code looks for the output files and checks them. It does not call the API's or run your code!!!
 
+AS YOU COMPLETE EACH FUNCTION, CALL THE FUNCTION UNDER `if __name__ == '__main__'` TO MAKE SURE IT EXECUTES. THE TESTS ONLY LOOK FOR THE OUTPUT FILES FROM THE PIPELINE RUNS. 
+
 #### The multi-step ETL for this assignment
 
 Here's the multi-step ETL for this assignment:
@@ -157,6 +159,12 @@ Steps:
 
     Outputs from the solution runs are in the `code/colutions/cache` folder.
 
+
+#### DON't FORGET!
+
+Your actual pipeline should be under the `if __name__ == '__main__':` block in `assignment_etl.py` so it runs when you execute the file.
+
+The tests will not pass unless you run the pipeline!
 
 ## Turning it in 
 
