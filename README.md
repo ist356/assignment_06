@@ -1,4 +1,4 @@
-# IST356 Assignment 04 (assignment_04)
+# IST356 Assignment 06 (assignment_06)
 
 ## Meta Section
 
